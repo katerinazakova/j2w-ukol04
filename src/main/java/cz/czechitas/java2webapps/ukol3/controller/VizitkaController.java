@@ -1,9 +1,11 @@
 package cz.czechitas.java2webapps.ukol3.controller;
 
+import cz.czechitas.java2webapps.ukol3.entity.Vizitka;
 import cz.czechitas.java2webapps.ukol3.service.VizitkaService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
@@ -34,5 +36,11 @@ public class VizitkaController {
   public ModelAndView newDetail (){
     ModelAndView result = new ModelAndView("newBusinessCard");
     return result;
+  }
+
+  @PostMapping("/nova")
+  public String append(Vizitka vizitka) {
+    service.append(vizitka);
+    return "redirect:/";
   }
 }
