@@ -108,7 +108,8 @@ a:hover .vizitka {
     box-shadow: 5px 5px 10px black;
 }
 .newBusinessCard {
-    font-size: 100px;
+    font-size: 40px;
+    text-align: center;
     background-color: #FFFFFF66;
     border: 3px solid ghostwhite;
     padding: 0%;
@@ -125,4 +126,5 @@ a:hover .vizitka {
     font-weight: bold;
     margin-left: 20%;
 }
+
 
