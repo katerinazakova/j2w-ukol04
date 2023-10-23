@@ -16,22 +16,28 @@
             </div>
             <div class="kontakty">
                 [#if vizitka.email??]
-                <div><i class="bi bi-at"></i>${vizitka.email}</div>
+                    <div><i class="bi bi-at"></i>${vizitka.email}</div>
                 [/#if]
                 [#if vizitka.email??]
-                <div><i class="bi bi-phone"></i>${vizitka.telefon}</div>
+                    <div><i class="bi bi-phone"></i>${vizitka.telefon}</div>
                 [/#if]
                 [#if vizitka.email??]
-                <div><i class="bi bi-globe"></i>${vizitka.web}</div>
+                    <div><i class="bi bi-globe"></i>${vizitka.web}</div>
                 [/#if]
             </div>
+            <form method="post" action="/delete">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <input type="hidden" name="id" value="${id}"/>
+                <button type="button" class="btn btn-secondary">smazat</button>
+            </div>
+            </form>
         </div>
     </div>
-
     <div class="mapa">
-        <iframe style="border:none" src="https://frame.mapy.cz/?q=${vizitka.celaAdresa?url}" width="100%" height="100%" frameborder="0"></iframe>
+        <iframe style="border:none" src="https://frame.mapy.cz/?q=${vizitka.celaAdresa?url}" width="100%"
+                height="100%"
+                frameborder="0"></iframe>
     </div>
-
     <nav>
         <a href="/">◂ zpět na seznam</a>
     </nav>
