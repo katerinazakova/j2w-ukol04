@@ -8,7 +8,7 @@
 <div class="newBusinessCard">
     <h2 class="mt-5 mb-3">Formulář pro novou vizitku</h2>
     <form class="novaVizitka" method="post" action="/nova">
-        <div class="col-md-9">
+        <div class="form-group">
             <label for="jmenoAPrijmeni">Jméno a příjmení</label>
             <input id="jmenoAPrijmeni" name="jmeno" type="text" class="form-control" value="">
         </div>
@@ -37,14 +37,13 @@
             <input id="web" name="web" type="text" class="form-control" value="">
         </div>
         <div class="col-md-1 align-self-end">
-            <button type="submit" class="btn btn-primary"><i class="bi bi-person-check-fill" role="img"
-                                                             aria-label="Append"></i></button>
+            <button type="submit" class=" edd-button btn btn-primary"><i class="bi bi-person-check-fill" role="img"
+                                                                         aria-label="Append"></i></button>
         </div>
     </form>
     <nav>
         <a href="/">◂ zpět na seznam</a>
     </nav>
-
 </div>
 </body>
 </html>
