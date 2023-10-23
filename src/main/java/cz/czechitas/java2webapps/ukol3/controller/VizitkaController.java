@@ -43,4 +43,10 @@ public class VizitkaController {
     service.append(vizitka);
     return "redirect:/";
   }
+
+  @PostMapping("/detail")
+  public String delete(int id) {
+    service.deleteById(id);
+    return "redirect:/";
+  }
 }
