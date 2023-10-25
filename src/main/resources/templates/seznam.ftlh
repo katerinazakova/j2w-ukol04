@@ -31,12 +31,11 @@
             </div>
         </a>
     [/#list]
-
     <a href="/nova">
         <div class="vizitka vizitka--nova">
             <svg width="100" height="100">
-                <rect width="20" height="100" x="40" y="0" fill="white" />
-                <rect width="100" height="20" x="0" y="40" fill="white" />
+                <rect width="20" height="100" x="40" y="0" fill="white"/>
+                <rect width="100" height="20" x="0" y="40" fill="white"/>
             </svg>
         </div>
     </a>

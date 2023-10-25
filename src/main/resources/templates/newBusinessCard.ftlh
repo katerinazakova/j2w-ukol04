@@ -37,8 +37,8 @@
             <input id="web" name="web" type="text" class="form-control" value="">
         </div>
         <div class="col-md-1 align-self-end">
-            <button type="submit" class=" edd-button btn btn-primary"><i class="bi bi-person-check-fill" role="img"
-                                                                         aria-label="Append"></i></button>
+            <button type="submit" class=" edd-button btn btn-primary">
+                <i class="bi bi-person-check-fill" role="img" aria-label="Append"></i></button>
         </div>
     </form>
     <nav>

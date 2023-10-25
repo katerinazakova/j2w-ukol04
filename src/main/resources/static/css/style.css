@@ -109,44 +109,47 @@ a:hover .vizitka {
 }
 
 .newBusinessCard {
-    font-size: 40px;
-    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
     background-color: #FFFFFF66;
     border: 3px solid ghostwhite;
     padding: 0%;
     margin: 40px 20%;
 }
 
+.newBusinessCard h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
 .novaVizitka input {
     display: block;
+    font-size: 25px;
     width: 70%;
     padding: 5px;
-    font-size: 25px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-right: 10%;
 }
 
-
 .novaVizitka label {
     display: block;
     margin: 15px 0;
-    font-size: 25px;
-    font-weight: bold;
     text-align: left;
     width: 30%;
     padding-left: 10%;
 }
 
 .edd-button {
+    font-size: 25px;
     background-color: black;
     color: #fff;
-    font-size: 24px;
     padding: 10px 20px;
     position: relative;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 85%;
 }
+
 .form-group {
     display: flex;
     align-items: center;
@@ -154,7 +157,7 @@ a:hover .vizitka {
 
 .newBusinessCard nav a {
     display: inherit;
-    margin-right: 50%;
+    margin-left: 10%;
     margin-bottom: 10%;
 }
 

@@ -18,22 +18,21 @@
                 [#if vizitka.email??]
                     <div><i class="bi bi-at"></i>${vizitka.email}</div>
                 [/#if]
-                [#if vizitka.email??]
+                [#if vizitka.telefon??]
                     <div><i class="bi bi-phone"></i>${vizitka.telefon}</div>
                 [/#if]
-                [#if vizitka.email??]
+                [#if vizitka.web??]
                     <div><i class="bi bi-globe"></i>${vizitka.web}</div>
                 [/#if]
             </div>
             <form method="post" action="/delete">
                 <div>
-                    <input type="hidden" name="id" value="${id}" />
-                    <button type="submit" class="btn btn-secondary">smazat</button>
+                    <input type="hidden" name="id" value="${id}"/>
+                    <button type="submit" class="btn btn-secondary"><i class="bi bi-trash3-fill"></i></button>
                 </div>
             </form>
         </div>
     </div>
-
 
     <div class="mapa">
         <iframe style="border:none" src="https://frame.mapy.cz/?q=${vizitka.celaAdresa?url}" width="100%"
