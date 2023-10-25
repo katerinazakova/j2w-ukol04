@@ -26,13 +26,15 @@
                 [/#if]
             </div>
             <form method="post" action="/delete">
-            <div class="btn-group" role="group" aria-label="Basic example">
-                <input type="hidden" name="id" value="${id}"/>
-                <button type="button" class="btn btn-secondary">smazat</button>
-            </div>
+                <div>
+                    <input type="hidden" name="id" value="${id}" />
+                    <button type="submit" class="btn btn-secondary">smazat</button>
+                </div>
             </form>
         </div>
     </div>
+
+
     <div class="mapa">
         <iframe style="border:none" src="https://frame.mapy.cz/?q=${vizitka.celaAdresa?url}" width="100%"
                 height="100%"

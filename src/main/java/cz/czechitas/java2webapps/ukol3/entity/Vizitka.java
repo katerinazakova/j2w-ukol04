@@ -14,6 +14,8 @@ public class Vizitka {
   private String telefon;
   private String web;
 
+  private int id;
+
   public Vizitka() {
   }
 
@@ -86,4 +88,5 @@ public class Vizitka {
   public String getCelaAdresa() {
     return ulice + ", " + obecPsc;
   }
+
 }
